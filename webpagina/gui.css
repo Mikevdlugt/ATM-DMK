@@ -1,0 +1,140 @@
+body{
+    background-color: #0d0e0e;
+}
+h4{
+    color: #0d0e0e;
+    margin-top: -350px;
+    font-size: 38px;
+    margin-left: 38%;
+    position: fixed;
+}
+h3{
+    color: black;
+    margin-top: 0px; 
+    text-align: center;
+    font-size: 33px;
+}
+h2{
+    color: #4da986;
+    margin-top: -210px;
+    text-align: center;
+}
+h1{
+    color: #0d0e0e;
+    margin-top: -50px;
+}
+p{
+    color: black;
+    margin-top: 0px; 
+    text-align: center;
+    font-size: 50px;
+}
+.standaard-blok{
+    background-color: #4da986;
+    height: 10px;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    padding: 310px;
+}
+.halflinks-blok{
+    height: 10px;
+    background-color: #4da986;
+    margin-left: 67px;
+    width: 35px;
+    padding: 310px;
+    
+}
+.halfrechts-blok{
+    margin-top: -630px;
+    height: 10px;
+    background-color: #4da986;
+    margin-left: 631px;
+    width: 35px;
+    padding: 310px;
+}
+/* .halflinks-blokh{
+    height: 10px;
+    margin-top: -100px;
+    background-color: #4da986;
+    margin-left: -150px;
+    width: 141px;
+    padding: 150px;
+}
+.halfrechts-blokh{
+    height: 10px;
+    margin-top: -247px;
+    background-color: #4da986;
+    margin-left: 600px;
+    width: 141px;
+    padding: 150px;
+} */
+.keuzeblokjeLO{
+    background-color: #0d0e0e;
+    height: 75px;
+    width: 275px;
+    margin-left: -170px;
+    border-radius: 15px 15px 15px 55px;
+}
+.keuzeblokjeLM{
+    background-color: #0d0e0e;
+    height: 75px;
+    width: 275px;
+    margin-left: -170px;
+    border-radius: 15px 15px 15px 15px;
+}
+.keuzeblokjeLB{
+    background-color: #0d0e0e;
+    height: 75px;
+    width: 275px;
+    margin-left: -170px;
+    border-radius: 55px 15px 15px 15px;
+}
+.keuzeblokjeRO{
+    background-color: #0d0e0e;
+    height: 75px;
+    width: 275px;
+    margin-left: -60px;
+    border-radius: 15px 15px 55px 15px;
+}
+.keuzeblokjeRM{
+    background-color: #0d0e0e;
+    height: 75px;
+    width: 275px;
+    margin-left: -60px;
+    border-radius: 15px 15px 15px 15px;
+}
+.keuzeblokjeRB{
+    background-color: #0d0e0e;
+    height: 75px;
+    width: 275px;
+    margin-left: -60px;
+    border-radius: 15px 55px 15px 15px;
+}
+.invoerblok{
+    background-color: white;
+    position: fixed;
+    height: 45px;
+    width: 275px;
+    margin-left: 520px;
+    margin-top: -290px;
+    border-radius: 15px 15px 15px 15px;
+    border-style: solid;
+}
+.pininvoerblok{
+    background-color: white;
+    /* position: fixed; */
+    height: 45px;
+    width: 275px;
+    margin-left: 160px;
+    margin-top: -10px;
+    border-radius: 15px 15px 15px 15px;
+    border-style: solid;
+}
+.geenkeuzeblokje{
+    background-color: #4da986;
+    height: 75px;
+    width: 275px;
+    margin-left: -60px;
+}
+

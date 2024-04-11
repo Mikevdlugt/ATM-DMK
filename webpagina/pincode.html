@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="gui/gui.css">
+        <title>
+                De Munten Kluis
+        </title>
+    </head>
+    <body>
+        <img src="img/bank1.png" alt="logo" height="210" width="320">
+        <div class="standaard-blok">
+            <h1>
+                Voer uw pincode in...
+            </h1>
+            <div class="pininvoerblok">
+                <p id="pin"></p>
+            </div>
+            <button onclick="volgendepagina(3)"> </button>
+            <br>
+            <img src="img/pincode.png" alt="logo" height="190" width="200">
+        </div>
+        <script>
+            var pinGetal1 = "*";
+            var pinGetal2 = "*";
+            var pinGetal3 = "*";
+            var pinGetal4 = "*";
+            // Haal het element op waarin je de variabele wilt weergeven
+            var pincodeElement = document.getElementById("pin");
+            // Voeg de variabele toe aan het element
+            pincodeElement.innerHTML = pinGetal1 + pinGetal2 + pinGetal3 + pinGetal4;
+            // + pinGetal3 + pinGetal3
+        </script>
+        <script src="script.js"></script>
+    </body>
+</html>
+
+<!-- <html>
+    <head>
+        <link rel="stylesheet" href="gui/gui.css">
+        <title>
+                De Munten Kluis
+        </title>
+    </head>
+    <body>
+        <img src="img/bank1.png" alt="logo" height="210" width="320">
+        <div class="halflinks-blok">
+            <h2><div class="geenkeuzeblokje"><br></div>
+                <br><br><br><br>
+                <div class="geenkeuzeblokje"></div>
+                <br><br><br><br>
+                <div class="geenkeuzeblokje"><br></div>
+            </h2>             
+        </div> 
+        <h4>Voer uw pincode in...</h4>
+        <div class="invoerblok">
+            <h3 id="pin"></h3>
+        </div>
+        <img src="img/pincode.png" alt="logo" height="190" width="200">
+        <button onclick="volgendepagina(3)"> </button>
+        
+        <div class="halfrechts-blok">
+            <h2><div class="geenkeuzeblokje"><br></div>
+                <br><br><br><br>
+                <div class="geenkeuzeblokje"></div>
+                <br><br><br><br>
+                <div class="geenkeuzeblokje"><br></div>
+            </h2> 
+        </div> 
+        <script>
+            var pinGetal1 = "*";
+            var pinGetal2 = "*";
+            var pinGetal3 = "*";
+            var pinGetal4 = "*";
+            // Haal het element op waarin je de variabele wilt weergeven
+            var pincodeElement = document.getElementById("pin");
+            // Voeg de variabele toe aan het element
+            pincodeElement.innerHTML = pinGetal1 + pinGetal2 + pinGetal3 + pinGetal4;
+            // + pinGetal3 + pinGetal3
+        </script>
+        <script src="script.js"></script>
+    </body>
+</html> -->
+
+
