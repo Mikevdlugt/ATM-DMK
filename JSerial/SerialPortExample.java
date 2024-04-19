@@ -1,7 +1,3 @@
-package HobbyStuff.JSerial;
-
-// import HobbyStuff.Swinging.Gui;
-
 public class SerialPortExample {
 
     public static void main(String[] args) {
