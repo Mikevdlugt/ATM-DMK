@@ -90,7 +90,7 @@ KeypadButtons     = 5 + button
 UID               = 6 + UID
 IBAN              = 7 + IBAN
 
-GeldToevoegen = 9 + 0/1/2/3 (type) + 1/5 (hoeveelheid)*/
+GeldToevoegen = 9 + 0/1/2/3 (type) + 1/2/3 (+1/+10/-1)*/
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
 void setup() {
