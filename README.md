@@ -23,6 +23,6 @@ Actie Uitvoeren: Naast de tablet zitten knoppen die zijn verbonden aan de arduin
 Bevestiging: De tablet toont een bevestiging van de transactie en stuurt deze gegevens ook weer vie de API zodat je afschrift ook echt gedaan is.
 
 Auteurs
-Dit project is gemaakt door Daniel Huijsdens, Kai van der Knijff, Mike van der Lugt, en Daan Meijer.
+Dit project is gemaakt door Daniel Huijsdens, Kai van der Knijff, Mike van der Lugt, en Daan Meijers.
 
 
