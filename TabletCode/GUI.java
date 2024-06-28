@@ -116,27 +116,12 @@ public class GUI {
         pincodePanel = createPanel("img/pincodepage.png");
 
         pincodeLabel = createLabel("", 65, Color.BLACK, (width - 100) / 2, 500, 200, 100);
-//        pincodeLabel = new JLabel();
-//        pincodeLabel.setFont(new Font("Vertica", Font.BOLD, 65));
-//        pincodeLabel.setBounds((width - 100) / 2, 500, 200, 100); // Zet het label in het midden bovenaan
 
         pressDLabel = createLabel("Druk op D voor doorgaan", 25, new Color(0, 0, 128), (width - 295) / 2, 400, 500, 100);
-//        pressDLabel = new JLabel("Press D to confirm");
-//        pressDLabel.setFont(new Font("Vertica", Font.BOLD, 25));
-//        pressDLabel.setForeground(new Color(0,0,128));
-//        pressDLabel.setBounds((width - 245) / 2, 400, 500, 100);
 
         pincodeIncorrectLabel = createLabel("Incorrecte pincoode, pogingen over: " + attemptsRemaining, 20, Color.RED, (width - 333) / 2, 532, 500, 100);
-//        pincodeIncorrectLabel = new JLabel("Incorrect pincode, attempts left: " + attemptsRemaining); //ApiDataHandler.attemptsRemaining
-//        pincodeIncorrectLabel.setFont(new Font("Vertica", Font.BOLD, 20));
-//        pincodeIncorrectLabel.setForeground(Color.RED);
-//        pincodeIncorrectLabel.setBounds((width - 333) / 2, 532, 500, 100); // Zet het label in het midden bovenaan
 
         pincodeBlockedLabel = createLabel("Kaart is geblokkeerd", 20, Color.RED, (width - 170) / 2, 532, 200, 100);
-//        pincodeBlockedLabel = new JLabel("Card is blocked");
-//        pincodeBlockedLabel.setFont(new Font("Vertica", Font.BOLD, 20));
-//        pincodeBlockedLabel.setForeground(Color.RED);
-//        pincodeBlockedLabel.setBounds((width - 162) / 2, 532, 200, 100); // Zet het label in het midden bovenaan
 
 
         pincodePanel.setVisible(true);
@@ -177,10 +162,7 @@ public class GUI {
 
         // Voeg het label toe aan de overlayPanel
         fullName = createLabel("", 25, new Color(77, 169, 134), (width - 125) / 2, 50, 350, 100);
-//        fullName = new JLabel();
-//        fullName.setFont(new Font("Vertica", Font.BOLD, 25));
-//        fullName.setBounds((width - 125) / 2, 50, 350, 100); // Zet het label in het midden bovenaan
-//        fullName.setForeground(new Color(77, 169, 134));
+
         homePanel.add(fullName);
 
         balanceInCents = createLabel("", 25, new Color(77, 169, 134), (width - 125) / 2, 100, 350, 100); // Zet het label in het midden bovenaan
@@ -198,12 +180,6 @@ public class GUI {
 
         fullName.setVisible(true);
         balanceInCents.setVisible(true);
-
-//        dateTime = new JLabel();
-//        dateTime.setFont(new Font("Vertica", Font.BOLD, 65));
-//        dateTime.setBounds((width - 100) / 2, 500, 200, 100); // Zet het label in het midden bovenaan
-//        homePanel.add(dateTime);
-//        dateTime.setVisible(true);
 
         homePanel.setVisible(true);
         frame.setVisible(true);
@@ -228,9 +204,6 @@ public class GUI {
         pinPanel.add(fullName);
 
         bedragLabel = createLabel("", 28, Color.BLACK, (width - 120) / 2, 524, 200, 100);
-//        bedragLabel = new JLabel();
-//        bedragLabel.setFont(new Font("Vertica", Font.BOLD, 28));
-//        bedragLabel.setBounds((width - 120) / 2, 524, 200, 100); // Zet het label in het midden bovenaan
 
         notEnoughBalanceLabel = createLabel("Te weinig saldo", 20, Color.RED, (width - 220) / 2, 580, 200, 100);
 
@@ -415,10 +388,6 @@ public class GUI {
             ActionHandler.amountReset("amountToPin", gui);
             pinnenPage(0);
             exceedingDailyLimitLabel.setVisible(true);
-            // Exceeding daily limit
-//        } else if (statusCode.equals("500")) {
-//
-//            // Internal server error
         }
     }
 }
