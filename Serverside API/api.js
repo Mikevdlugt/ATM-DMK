@@ -477,7 +477,6 @@ app.post('/api/withdraw', (req, res) => {
 
                             const newIdTransaction = result[0].maxId + 1;
 
-
                             con.query("INSERT INTO Transaction (idTransaction, Fk_idATM, Fk_idCard, amountInPounds, time) VALUES (?, 1, (SELECT idCard FROM Card WHERE cardNumber = ?), ?, ?)", [newIdTransaction, uid, amount / 100, formattedTime], function (err, result, fields) {
                                 if (err) {
                                     console.error('Error inserting transaction:', err);
